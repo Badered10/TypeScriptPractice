@@ -82,8 +82,19 @@
 
 // concatante two strings
 {
-    let conca = "Hello" + " " + "World!";
-    console.log(conca);
+    // say 3 hellos then world
+
+    let hello = "hello";
+    let conca = "";
+    for(let i = 0; i < 3; i++)
+        conca += hello + " ";
+    conca += "," + " world!";
+    console.log(conca + `\n INFOS: prevous str: "${conca}" has ${conca.length} chars !`);
+}
+
+//
+{
+
 }
 
 
