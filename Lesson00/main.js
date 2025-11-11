@@ -63,6 +63,22 @@
 
 }
 
+// string quotes 
+
+{
+    let str = "hello world";
+    let anotherStr = 'hello world';
+    let quotesStr = 'hello "world" ';
+    let anotherQuotesStr = "hello \"world\" ";
+
+    if (quotesStr == anotherQuotesStr)
+        console.log(true);
+    else
+        console.log(false);
+}
+
+
+
 
 
 
