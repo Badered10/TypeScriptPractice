@@ -29,6 +29,22 @@
     // c.log(CAMELcase); // wont run and will throw an error 
 }
 
+// "+ - * /" arithmitic opreators 
+{
+    let sub = 12 - 2;
+    let add = 12 + 2;
+    let mult = 12 * 2;
+    let div = 12 / 2;
+
+    let myVar = sub;
+
+    { // all the same how to increment same to decrement  
+        myVar++; // org : 10 and it will be 11
+        myVar +=1; 
+        myVar = myVar + 1;
+    }
+}
+
 
 
 
