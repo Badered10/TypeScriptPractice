@@ -51,6 +51,19 @@
     c.log(inf)
 }
 
+//
+
+{
+    let remainder = 11 % 2;
+
+    console.log("number " + 11);
+    if (remainder == 0)
+        console.log(" is even !");
+    else
+        console.log(" is odd !");
+
+}
+
 
 
 
