@@ -51,8 +51,7 @@
     c.log(inf)
 }
 
-//
-
+// remainder Example
 {
     let remainder = 11 % 2;
 
@@ -63,6 +62,8 @@
         console.log(" is odd !");
 
 }
+
+
 
 
 
