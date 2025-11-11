@@ -92,15 +92,20 @@
     console.log(conca + `\n INFOS: prevous str: "${conca}" has ${conca.length} chars !`);
 }
 
-// bracket notaion
+// bracket notaion []
 {
-    // lets print first char of a word 
+    // lets print first char of a word and last
 
-    let word = "olee";
+    let word = "oleet";
     console.log("In Word : " + `"${word}"` + " the first char is : " + `'${word[0]}'`);
+    console.log("In Word : " + `"${word}"` + " the last char is : " + `'${word[word.length - 1]}'`);
 }
 
+// 
 
+{
+
+}
 
 
 
