@@ -92,10 +92,15 @@
     console.log(conca + `\n INFOS: prevous str: "${conca}" has ${conca.length} chars !`);
 }
 
-//
+// bracket notaion
 {
+    // lets print first char of a word 
 
+    let word = "olee";
+    console.log("In Word : " + `"${word}"` + " the first char is : " + `'${word[0]}'`);
 }
+
+
 
 
 
