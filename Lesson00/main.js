@@ -71,10 +71,18 @@
     let quotesStr = 'hello "world" ';
     let anotherQuotesStr = "hello \"world\" ";
 
+    let backticksStr = `'"hello \"world\""'`;
+
     if (quotesStr == anotherQuotesStr)
         console.log(true);
     else
         console.log(false);
+    console.log(backticksStr);
+}
+
+// 
+{
+
 }
 
 
