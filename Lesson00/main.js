@@ -18,7 +18,7 @@
     c.log(bool);
     c.log(str);
     c.log(num);
-    c.log(c);
+    // c.log(c);
 }
 
 { // js is key-sensitive
@@ -43,6 +43,12 @@
         myVar +=1; 
         myVar = myVar + 1;
     }
+}
+
+// divide by zero
+{
+    let inf = 1 / 0.0;
+    c.log(inf)
 }
 
 
