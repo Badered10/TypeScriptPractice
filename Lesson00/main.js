@@ -1,6 +1,5 @@
 { // var used on the whole program 
-    var un = undefined;
-    var n = null;
+    var un = undefined; var n = null; // syntax: ';' used to split each line of code from another.
     var bool = 1
     var str = bool
     var num = str;
@@ -21,6 +20,6 @@
     c.log(num);
     c.log(c);
 }
-
+// 
 
 
