@@ -21,6 +21,14 @@
     c.log(c);
 }
 
+{ // js is key-sensitive
+
+    let camelCase;
+
+    c.log(camelCase); // works and shows null as value
+    // c.log(CAMELcase); // wont run and will throw an error 
+}
+
 
 
 
