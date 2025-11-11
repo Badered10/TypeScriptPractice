@@ -80,7 +80,7 @@
     console.log(backticksStr);
 }
 
-// concatante two strings
+// concatante two strings & show length and use backticks
 {
     // say 3 hellos then world
 
