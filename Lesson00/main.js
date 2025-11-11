@@ -80,9 +80,10 @@
     console.log(backticksStr);
 }
 
-// 
+// concatante two strings
 {
-
+    let conca = "Hello" + " " + "World!";
+    console.log(conca);
 }
 
 
