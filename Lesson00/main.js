@@ -25,7 +25,7 @@
 
     let camelCase;
 
-    c.log(camelCase); // works and shows null as value
+    c.log(camelCase); // works and shows undefined as value
     // c.log(CAMELcase); // wont run and will throw an error 
 }
 
