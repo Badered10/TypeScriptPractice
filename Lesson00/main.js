@@ -157,12 +157,21 @@
     c.log(myArray[2]);
 }
 
-// pop() method to remove elements back from an array 
+// pop() method removes the last element of an array 
 {
     myArray.pop(); // will remove "Lion"
     c.log(myArray[2]); // should be undfined
     c.log(myArray[1]); // should be messi
 }
+
+// shift() method removes the first element of an array 
+{
+    c.log(myArray); // [10], [messi]
+    myArray.shift(); // removes [10]
+    c.log(myArray); // [messi]
+}
+
+
 
 
 
