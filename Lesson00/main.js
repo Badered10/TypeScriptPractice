@@ -144,9 +144,17 @@
     let myString = "hello";
     myString[0] = "k"; // does nothing
     let myArray = [myString, "okeey"];
-    
+
     myArray[0] = "k";
     c.log(myArray[0]); // will print : k
+}
+
+// push method to add elements back to an array 
+{
+    let myArray = [10, "messi"];
+
+    myArray.push("Lion");
+    c.log(myArray[2]);
 }
 
 
