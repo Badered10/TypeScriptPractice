@@ -117,10 +117,18 @@
 
 // arrays on javaScript ! collection of all diff types in one var 
 {
-    let myArray = [10, "hello"];
+    let myArray = [1, "wow"];
 
     c.log(myArray[0]);
     c.log(myArray[1]);
+}
+
+// array of array !
+{
+    let myArray = [10, "hello"];
+    let myArrayOfArray = [myArray , ["world", 20]];
+
+    console.log(myArrayOfArray[0][1] , myArrayOfArray[1][0]);
 }
 
 
