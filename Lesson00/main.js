@@ -213,9 +213,10 @@
         var oopsGlobal = 10; 
         c.log(oopsGlobal);
     }
+    fun1(); // works
 }
 // c.log(oopsGlobal); // error !
-fun1();
+// fun1(); // error
 
 
 
