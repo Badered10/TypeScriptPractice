@@ -172,10 +172,11 @@
     c.log(myTen);
 }
 
-//
-
+// unshift() method to add elements front to an array 
 {
-
+    let myArray = ["World !"];
+    myArray.unshift("Hello ");
+    c.log(myArray);
 }
 
 
