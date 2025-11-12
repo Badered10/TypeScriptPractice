@@ -195,7 +195,7 @@
 // sayHey(); // will works , error strict mode.
 
 
-// 
+// exmp of func with parameters
 {
     function sum(a, b)
     {
@@ -204,6 +204,8 @@
     let s = sum(1 , 3);
     c.log(s);
 }
+
+
 
 
 
