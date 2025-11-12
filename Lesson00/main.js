@@ -179,6 +179,15 @@
     c.log(myArray);
 }
 
+// function declariton syntax
+{
+    function sayHey()
+    {
+        console.log("Hey !");
+    }
+}
+sayHey(); // will works in non strict mode : '"use strict";'
+
 
 
 
