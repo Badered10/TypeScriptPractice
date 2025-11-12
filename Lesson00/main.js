@@ -149,12 +149,19 @@
     c.log(myArray[0]); // will print : k
 }
 
-// push method to add elements back to an array 
+// push() method to add elements back to an array 
 {
-    let myArray = [10, "messi"];
+    var myArray = [10, "messi"];
 
     myArray.push("Lion");
     c.log(myArray[2]);
+}
+
+// pop() method to remove elements back from an array 
+{
+    myArray.pop(); // will remove "Lion"
+    c.log(myArray[2]); // should be undfined
+    c.log(myArray[1]); // should be messi
 }
 
 
