@@ -205,6 +205,18 @@
     c.log(s);
 }
 
+//
+{
+    function fun1()
+    {
+        // oopsGlobal = 10; // goes global automaticlly in browser but not in scrimba or node
+        var oopsGlobal = 10; 
+        c.log(oopsGlobal);
+    }
+}
+// c.log(oopsGlobal); // error !
+fun1();
+
 
 
 
