@@ -138,6 +138,17 @@
     c.log(myString); // will print : hello
 }
 
+// using bracket notation to modify an array exist (jsut elements) !
+
+{
+    let myString = "hello";
+    myString[0] = "k"; // does nothing
+    let myArray = [myString, "okeey"];
+    
+    myArray[0] = "k";
+    c.log(myArray[0]); // will print : k
+}
+
 
 
 
