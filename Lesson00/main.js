@@ -195,6 +195,16 @@
 // sayHey(); // will works , error strict mode.
 
 
+// 
+{
+    function sum(a, b)
+    {
+        return a + b;
+    }
+    let s = sum(1 , 3);
+    c.log(s);
+}
+
 
 
 
