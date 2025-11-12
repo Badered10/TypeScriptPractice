@@ -1,4 +1,6 @@
-{ // var used on the whole program 
+"use strict";
+
+{ // var used on the whole program , BUT they respect function scop !
     var un = undefined; var n; // syntax: ';' used to split each line of code from another.
     var bool = 1
     var str = bool
@@ -134,7 +136,7 @@
 // using bracket notation to modify a string not exists
 {
     let myString = "hello";
-    myString[0] = "k"; // does nothing
+    // myString[0] = "k"; // does nothing , error in strict mode
     c.log(myString); // will print : hello
 }
 
@@ -142,7 +144,7 @@
 
 {
     let myString = "hello";
-    myString[0] = "k"; // does nothing
+    // myString[0] = "k"; // does nothing , error in strict mode
     let myArray = [myString, "okeey"];
 
     myArray[0] = "k";
@@ -183,10 +185,16 @@
 {
     function sayHey()
     {
+        var printMe = "AAAAAAAA";
         console.log("Hey !");
+        console.log(printMe); // works perfectlly
     }
+    sayHey();
+    // console.log(printMe); // Error in both strict mode and normal mod
 }
-sayHey(); // will works in non strict mode : '"use strict";'
+// sayHey(); // will works , error strict mode.
+
+
 
 
 
