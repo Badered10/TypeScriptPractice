@@ -104,7 +104,23 @@
 // 
 
 {
+    function wordBlancks(myNoun, myAdjevtive, myVerb, myAdverb)
+    {
+        let res = "";
+        res += "The " + myAdjevtive + " " + myNoun + " " + myVerb + " to the store " + myAdverb + "!";
+        return(res);
+    }
+    console.log(wordBlancks("dog", "short", "ran", "slowly"));
+    console.log(wordBlancks("cat", "tall", "walk", "fastly"));
+    console.log(wordBlancks("boy", "litlle", "went", "fastly"));
+}
 
+// arrays on javaScript ! collection of all diff types in one var 
+{
+    let myArray = [10, "hello"];
+
+    c.log(myArray[0]);
+    c.log(myArray[1]);
 }
 
 
