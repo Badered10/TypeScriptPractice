@@ -129,7 +129,17 @@
     let myArrayOfArray = [myArray , ["world", 20]];
 
     console.log(myArrayOfArray[0][1] , myArrayOfArray[1][0]);
+
 }
+// using bracket notation to modify a string not exists
+{
+    let myString = "hello";
+    myString[0] = "k"; // does nothing
+    c.log(myString); // will print : hello
+}
+
+
+
 
 
 
