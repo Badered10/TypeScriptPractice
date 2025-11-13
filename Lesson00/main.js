@@ -268,6 +268,20 @@ var sum = 0;
 
 }
 
+// Equality Operators
+{
+    let d = 12;
+    if (d == "12") // == used to check value
+        console.log("TRUE");
+    else
+        console.log("FALSE");
+    if (d === "12") // === used to check value and type 
+        console.log("TRUE");
+    else
+        console.log("FALSE");
+}
+
+
 
 
 
