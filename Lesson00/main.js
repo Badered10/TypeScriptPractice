@@ -229,9 +229,18 @@ var useMe = 20; // globale sope
     c.log(useMe); //  will be not dfined ! if there is no same var name in globale scope
 }
 
-// 
+// no return ! so sum will have a default value
+var sum = 0;
 {
-
+    function add(num)
+    {
+        sum += num;
+    }
+    function add2(num)
+    {
+        sum += num + num;
+    }
+    c.log(sum);
 }
 
 
