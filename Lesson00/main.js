@@ -224,9 +224,14 @@ var useMe = 20; // globale sope
     function d()
     {
         var useMe = 10;
-        c.log(useMe);
+        c.log(useMe); // will print 10 not 20 , so local var takes precedent over global one inside a scope
     }
     c.log(useMe); //  will be not dfined ! if there is no same var name in globale scope
+}
+
+// 
+{
+
 }
 
 
