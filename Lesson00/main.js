@@ -281,6 +281,21 @@ var sum = 0;
         console.log("FALSE");
 }
 
+//  And / Or Operators 
+{
+    let d = 1 , s = -1;
+
+    if (d < 0 || s < 0)
+        console.log("one of conds are true");
+    else
+        console.log("none of conds are true");
+
+    if (d > 0 && s < 0)
+        console.log("both conds are true");
+    else
+        console.log("one of conds are false");
+}
+
 
 
 
