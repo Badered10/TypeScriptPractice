@@ -283,18 +283,20 @@ var sum = 0;
 
 //  And / Or Operators 
 {
-    let d = 1 , s = -1;
+    let pos = 1 , neg = -1;
 
-    if (d < 0 || s < 0)
+    if (pos < 0 || neg < 0)
         console.log("one of conds are true");
     else
         console.log("none of conds are true");
 
-    if (d > 0 && s < 0)
+    if (pos > 0 && neg < 0)
         console.log("both conds are true");
     else
         console.log("one of conds are false");
 }
+
+
 
 
 
