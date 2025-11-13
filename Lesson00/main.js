@@ -244,6 +244,29 @@ var sum = 0;
 }
 
 
+// qeue sim
+{
+    let arr = [1, 2, 3, 4]; // our qeue can sereve just 4 items
+
+    function nextInLine(arr, item) // add new item to qeue and return first one
+    {
+        arr.push(item); // add [5]
+        return (arr.shift()); // remove first and return : [1]
+    }
+    console.log("Before :" + JSON.stringify(arr));
+    console.log(nextInLine(arr, 5));
+    console.log("After :" + JSON.stringify(arr));
+
+    function prevInLine(arr, item)
+    {
+        arr.unshift(item);// add at first [1]
+        return (arr.pop()); // remove and return last [5]
+    }
+    console.log("Before :" + JSON.stringify(arr));
+    console.log(prevInLine(arr, 1));
+    console.log("After :" + JSON.stringify(arr));
+
+}
 
 
 
