@@ -270,31 +270,75 @@ var sum = 0;
 
 // Equality Operators
 {
-    let d = 12;
-    if (d == "12") // == used to check value
-        console.log("TRUE");
-    else
-        console.log("FALSE");
-    if (d === "12") // === used to check value and type 
-        console.log("TRUE");
-    else
-        console.log("FALSE");
+    function strictTest(val)
+    {
+        if (val === 1337)
+            c.log("equal both type and value");
+        else
+            c.log("even type or value not equal");
+    }
+
+    function normalTest(val)
+    {
+        if (val == 1337)
+            c.log("equal in value");
+        else
+            c.log(" value not equal");
+    }
+    strictTest("1337");
+    strictTest(1337);
+
+    normalTest("1337");
+    normalTest(1337);
 }
 
 //  And / Or Operators 
 {
-    let pos = 1 , neg = -1;
-
-    if (pos < 0 || neg < 0)
-        console.log("one of conds are true");
-    else
-        console.log("none of conds are true");
-
-    if (pos > 0 && neg < 0)
-        console.log("both conds are true");
-    else
-        console.log("one of conds are false");
+    function oneAreNegatvie(one , two)
+    {
+        if (one < 0 || two < 0)
+            c.log("One of : " + one + ", " + two + " are : " + "Negative");
+        else
+            c.log("Both of : " + one + ", " + two + " are : " + "not Negative");
+    }
+    function bothAreNegatvie(one , two)
+    {
+        if (one < 0 && two < 0)
+            c.log("Both ," + one + ", " + two + " are : " + "Negative");
+        else
+            c.log("One of : " + one + ", " + two + " are : " + "not Negative");
+    }
+    oneAreNegatvie(-1, 2);
+    bothAreNegatvie(-1, -2);
 }
+
+// Not equal Operators
+{
+    function strictNotEqual(val)
+    {
+        if (val !== 1337)
+            c.log("not equal in value or type");
+        else
+            c.log("equal in value and type");
+    }
+
+    function NotEqual(val)
+    {
+        if (val != 1337)
+            c.log("not equal in value");
+        else
+            c.log("equal in value");
+    }
+    strictNotEqual("1337");
+    strictNotEqual(1337);
+
+    NotEqual("1337");
+    NotEqual(1337);
+}
+
+
+
+
 
 
 
