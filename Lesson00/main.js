@@ -412,6 +412,34 @@ var sum = 0;
 }
 
 
+// check for inside sqr must be positive
+{
+    function abSqrt(a, b)
+    {
+        if (a < 0 || b < 0)
+            return undefined;
+        return Math.sqrt(a) + Math.sqrt(b);
+    }
+    console.log(abSqrt(-1, 1));
+    console.log(abSqrt(1, 1));
+}
+
+// objects !!
+{
+    let human =
+    {
+        "name" : "",
+        "age" : 0,
+        "job" : ""
+    }
+
+    human.name = "bader";
+    human.age = 18;
+    human.job = "student";
+
+    console.log(human);
+}
+
 
 
 
