@@ -401,6 +401,16 @@ var sum = 0;
     CaseAgeCheck(231);
 }
 
+// boolean funcs
+
+{
+    function isPositive(val)
+    {
+        return (val > 0);
+    }
+    console.log(isPositive(32));
+}
+
 
 
 
