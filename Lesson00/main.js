@@ -366,6 +366,41 @@ var sum = 0;
     CaseInSwitch(231);
 }
 
+{
+    function CaseAgeCheck(val)
+    {
+        let asnwer  = "";
+        
+
+        switch (val)
+        {
+            case 10:
+            case 20:
+            case 30:
+                asnwer = "LOW";
+                break;
+            case 40:
+            case 50:
+            case 60:
+                asnwer = "MID";
+                break;
+            case 70:
+            case 80:
+            case 90:
+                asnwer = "HIGH"
+                break;
+            default :
+                asnwer = "ERROR : Must be multiples of 10 and bet 10 - 90"
+        }
+        console.log(asnwer);
+    }
+    CaseAgeCheck(10);
+    CaseAgeCheck(50);
+    CaseAgeCheck(90);
+    CaseAgeCheck("assd");
+    CaseAgeCheck(231);
+}
+
 
 
 
