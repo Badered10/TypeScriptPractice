@@ -446,6 +446,31 @@ var sum = 0;
     console.log(human);
 }
 
+
+// std::map of javascript XD
+
+{
+    function lookUp(val)
+    {
+        let res = "";
+
+        let map =
+        {
+            "1" : "ONE",
+            "2" : "TWO",
+            "3" : "THREE",
+            "4" : "FOUR",
+            "5" : "FIVE"
+        }
+        res = map[val];
+        return (res);
+    }
+
+    console.log(lookUp(1));
+    console.log(lookUp(3));
+    console.log(lookUp(6));
+}
+
  
 
 
