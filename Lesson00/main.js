@@ -440,7 +440,13 @@ var sum = 0;
     human['cat'] = "temnssiwin"; // add new element to an object 
 
     console.log(human);
+
+    delete human.cat; // delet element from an object 
+
+    console.log(human);
 }
+
+ 
 
 
 
