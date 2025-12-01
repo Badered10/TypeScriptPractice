@@ -490,6 +490,31 @@ var sum = 0;
 
 }
 
+// manipulting complex objects
+
+{
+    const fireMap = {white: 1000, yellow: 400, red : 200, blue: 600};
+    const waterMap = {cold: 10, hot: 1000};
+    const iceMap = {white: 100, blue: 200};
+
+    const createElement = (name, typeMap) => { 
+        return {
+            attribute: name,
+            attributeTypes: Object.keys(typeMap),
+            damageMap: typeMap
+        };
+    };
+
+    const fire = createElement("FIRE", fireMap);
+    const water = createElement("WATER", waterMap);
+    const ice = createElement("ICE", iceMap);
+
+    const elements = [fire, water, ice];
+
+    console.log(elements);
+}
+
+
  
 
 
