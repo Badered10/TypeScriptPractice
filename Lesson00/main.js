@@ -471,6 +471,25 @@ var sum = 0;
     console.log(lookUp(6));
 }
 
+// check if object have a prop
+{
+    let obj = 
+    {
+        skill: "fighter",
+        spell: "holy",
+        name: "molly",
+        rank: "SSS"
+    }
+    function hasProp(obj, val)
+    {
+        if (obj.hasOwnProperty(val))
+                return (obj[val]);
+        return ("Not found");
+    }
+    console.log(hasProp(obj, "rank"));
+
+}
+
  
 
 
