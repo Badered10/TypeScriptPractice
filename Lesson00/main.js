@@ -437,6 +437,8 @@ var sum = 0;
     human.age = 18;
     human.job = "student";
 
+    human['cat'] = "temnssiwin"; // add new element to an object 
+
     console.log(human);
 }
 
