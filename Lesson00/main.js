@@ -337,10 +337,36 @@ var sum = 0;
 }
 
 
-// back
-{
+// using switch case
 
+{
+    function CaseInSwitch(val)
+    {
+        let asnwer  = "";
+
+        switch (val)
+        {
+            case 1:
+                asnwer = "I";
+                break;
+            case 2:
+                asnwer = "II";
+                break;
+            case 3:
+                asnwer = "III"
+                break;
+            default :
+                asnwer = "ELSE"
+        }
+        console.log(asnwer);
+    }
+    CaseInSwitch(1);
+    CaseInSwitch(3);
+    CaseInSwitch("assd");
+    CaseInSwitch(231);
 }
+
+
 
 
 
